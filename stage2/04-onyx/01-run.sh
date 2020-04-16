@@ -31,6 +31,6 @@ on_chroot << EOF
   bash <(curl -L https://github.com/OnyxAI/onyx-wifi/raw/master/scripts/raspbian-install.sh)
 EOF
 
-on_chroot << EOF
-	SUDO_USER="${FIRST_USER_NAME}" raspi-config nonint do_boot_behaviour B4
-EOF
+#on_chroot << EOF
+#	SUDO_USER="${FIRST_USER_NAME}" raspi-config nonint do_boot_behaviour B4
+#EOF

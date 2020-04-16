@@ -22,7 +22,7 @@ on_chroot << EOF
 
   cd onyx
   sudo bash install_debian_script.sh
-  yarn config set "strict-ssl" false -g
+  #yarn config set "strict-ssl" false -g
 
   bash setup.sh
 

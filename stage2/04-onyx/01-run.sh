@@ -28,7 +28,7 @@ on_chroot << EOF
 
   cd /home/pi
 
-  bash <(curl -L https://github.com/OnyxAI/onyx-wifi/raw/master/scripts/raspbian-install.sh)
+  #bash <(curl -L https://github.com/OnyxAI/onyx-wifi/raw/master/scripts/raspbian-install.sh)
 EOF
 
 #on_chroot << EOF
